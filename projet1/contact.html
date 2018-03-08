@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet"  href="contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Contact</title>
+
+
+    <!-- Bootstrap -->
+  </head>
+
+
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand " href="home.html" ><img src="photo/logo.png" alt=""></a>
+          </div>
+         
+          <!-- Collect the nav links, forms, and other content for toggling -->
+         
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav custom">
+              <li><a href="about.html">About me</a></li>
+              <li><a href="Equipment.html">Equipments</a></li>
+              <li><a href="Portofolio.html">Portofolio</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+     
+
+      <!-- picture -->
+     
+
+      <div class="picture">
+        <img src="camera-581126.jpg" alt="Bootstrap" class="img-responsive">
+      </div>
+    </header>
+   
+    <!-- contact -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <section class="contact">
+            <div class="form-area">
+                <br style="clear:both">
+                <h3>Contact Form</h3>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
+                  <span class="help-block"><p id="characterLeft" class="help-block ">You have reached the limit</p></span>
+                </div>
+                <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>            
+            </div>
+          </section>
+        </div>
+        <div class="col-md-6">
+          <section class="buttons">
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="glyphicon glyphicon-envelope"></i>  Mail</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                   Wildcodak@gmail.com
+                </p>
+              </div>
+            </div>
+            <div class="panel panel-info">
+              <div class="panel-heading">
+                <h3 class="panel-title"><i class="glyphicon glyphicon-phone"></i> Phone</h3>
+              </div>
+              <div class="panel-body">
+                <p>
+                  06.89.98.98.98
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+   
+    <!-- google map -->
+   
+    <div class="container">
+      <div class="row">
+        <div class="col-md-offset-3 col-md-6">
+          <section class ="map">
+            <h1>Locate me</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.478996278527!2d2.3504115152080307!3d48.84907580931733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671e4fa5fdbf9%3A0x5dcb5a09cff26472!2s11+Rue+de+Poissy%2C+75005+Paris!5e0!3m2!1sfr!2sfr!4v1520413029102" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
