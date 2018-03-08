@@ -234,6 +234,7 @@ button{
 /*...............................Footer...................*/
 
 footer{
+
 	background-color: #F2F2F2;
 	margin-top: 20px;
 }
@@ -250,4 +251,9 @@ footer{
 
 .logo2{
 	margin-top: -15px !important;
+}
+.list-unstyled{
+	padding-top: 15px;
+	font-size: 15px;
+	padding-left: 5px;
 }
