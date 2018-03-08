@@ -1,0 +1,253 @@
+body{
+	background-color: white;
+}
+
+/*.........................................................NAVBAR............................................*/
+
+/*.....................logo navbar............................*/
+.navbar-brand{
+margin-top: 10px;
+margin-left:25px !important;
+margin-right: 30px!important;
+font-size: 30px !important;
+}
+
+.navbar-brand>img{
+	width: 160px;
+	height:80px;
+	margin-top: -25px;
+	margin-left: -30px;
+}
+
+/*........................navbar cote droite....................*/
+
+.navbar-inverse{
+	background-color: inherit;
+	position: static;
+	margin-top: 0px;
+	border-color: white;
+
+}
+.custom>li>a{
+	color:#000033 !important;
+	font-size: 20px;
+	padding-top: 30px !important;
+}
+
+.navbar{
+	margin-bottom: 0px;
+}
+
+/*.............................navbar burger.....................*/
+
+.navbar-toggle{
+	background-color: #ea926a;
+	border:none;
+}
+
+/*...................................................................CARROUSEL.................................*/
+
+.row1{
+padding: 0;
+}
+
+#carousel{
+	margin-top: 30px;
+}
+
+#myCarousel{
+	margin-left: -15px;
+	margin-right: -15px;
+  box-shadow: 1px 22px 99px -5px rgba(33,31,33,1);
+}
+
+.item>img{
+	width: 100%;
+}
+
+/*...............................................MAIN CORP.............................*/
+
+/*................Welcome+ arrow........................*/
+
+.titre{
+	font-size: 40px;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+  color: #000033;
+	font-weight: bolder;
+	margin-top: 40px;
+}
+
+.arrow{
+	color:#000033;
+	font-size: 40px;
+}
+
+/*...................Les Posts (coté gauche)................*/
+.thumbnail{
+ border: none;
+	color:black;
+  border-radius: 0px;
+	padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.thumbnail>p{
+	padding-top: 50px;
+	padding-left: 30px;
+}
+
+.thumbnail>a>img{
+	box-shadow: 1px 22px 99px -15px rgba(33,31,33,1);
+}
+
+/*...................ASIDES (Coté droite)..................*/
+
+.well{
+  text-align: center;
+	border-radius: 0px;
+	border:none;
+	background-color: inherit;
+	box-shadow: none;
+}
+
+/*.......................Search...............*/
+
+.btn-default{
+  margin-top: 0px;
+}
+
+#search{
+	margin-top: 120px;
+}
+
+/*.......................Categories................*/
+
+#menuright{
+  margin-top: 30px;
+	border-radius: 10px;
+	background-color: ##f5f5f5;
+}
+
+#menuright>h4{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.list-unstyled{
+	padding-top: 15px;
+	font-size: 15px;
+	padding-left: 5px;
+}
+
+.categories{
+	text-align: center;
+}
+
+/*.............................Subscribe............*/
+
+.subscribe>button{
+	background-color: #003366;
+	margin-top: 20px;
+	color:white;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+#sub{
+	margin-top: 20px;
+}
+
+button{
+	margin-top: 20px;
+	background-color: #003366;
+	color: white;
+}
+
+/*...........................photo photograph.............*/
+
+.moi{
+	text-align: center;
+	color:white;
+}
+
+.rond{
+	padding: 0;
+}
+
+/*..........................Social media...................*/
+
+.reseau{
+	margin-top: 40px;
+	margin-left: 25px;
+
+}
+
+.fa {
+    padding: 13px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+		border-radius: 100%;
+		box-shadow: 1px 22px 99px -15px rgba(33,31,33,1);
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+
+
+}
+
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/*..Google...*/
+.fa-google {
+	 background: #d50f25;
+	 color: white;
+}
+.fa-linkedin {
+	background-color: #0e76a8;
+	color:white;
+}
+.fa-instagram {
+ background: #8a3ab9;
+ color: white;
+}
+.fa-youtube {
+	background: red;
+	color:white;
+}
+
+/*...............................Footer...................*/
+
+footer{
+	background-color: #F2F2F2;
+	margin-top: 20px;
+}
+.down>li>a{
+	color: #000033;
+	padding-left: 30px;
+	font-weight: bolder;
+	font-size: 15px;
+
+}
+.down{
+	text-align: center;
+}
+
+.logo2{
+	margin-top: -15px !important;
+}
